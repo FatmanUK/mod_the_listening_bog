@@ -1,0 +1,52 @@
+---
+title: 'The Listening Bog'
+speed: 6
+bpm: 0x5a
+orderList:
+  - 0x00
+  - 0x00
+instruments:
+  - id: 0x01
+    source: 'st01'
+    name: 'ST-01/PanFlute'
+    finetune: 0
+    volume: 0x24
+  - id: 0x02
+    source: 'st01'
+    name: 'ST-01/Strings2'
+    finetune: 0
+    volume: 0x20
+    start: 0x000
+    length: 0x200
+  - id: 0x03
+    source: 'st01'
+    name: 'ST-01/DeepBass'
+    finetune: 0
+    volume: 0x20
+  - id: 0x04
+    source: 'st01'
+    name: 'ST-01/Breath'
+    finetune: 0
+    volume: 0x30
+  - id: 0x05
+    source: 'st02'
+    name: 'ST-02/SpeOwl'
+    finetune: 0
+    volume: 0x1c
+  - id: 0x06
+    source: 'st02'
+    name: 'ST-02/IceRain'
+    finetune: 0
+    volume: 0x18
+  - id: 0x07
+    source: 'st01'
+    name: 'ST-01/WoodBlock'
+    finetune: 0
+    volume: 0x18
+  - id: 0x08
+    source: 'st01'
+    name: 'ST-01/Shaker'
+    finetune: 0
+    volume: 0x10
+...
+# vim: set filetype=yaml
