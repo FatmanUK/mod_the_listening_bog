@@ -1,38 +1,30 @@
-# Pattern 00 - temporary sample test, PT-safe range
+## Pattern 00
 
-| Row | Ch1        | Ch2        | Ch3        | Ch4        |
-|-----|------------|------------|------------|------------|
-| 00  | C-4 05 E60 | C-4 01 E00 | C-4 03     | C-3 06     |
-| 02  | ...        | C-4 01 ... | ...        | ...        |
-| 04  | G-3 04     | C-4 02 C34 | C-4 07     | A-3 06     |
-| 06  | ...        | C-4 02 C2C | ...        | ...        |
-| 08  | C-4 05     | ...        | ...        | B-3 06     |
-| 10  | ...        | ...        | ...        | ...        |
-| 12  | B-3 04     | ...        | C-4 03     | G-3 06     |
-| 14  | ...        | ...        | ...        | ...        |
-| 16  | C-4 05     | C-4 01 ... | D-4 07     | C-4 08     |
-| 18  | ...        | C-4 01 ... | ...        | ...        |
-| 20  | D-4 04     | C-4 02 C34 | ...        | A-4 06     |
-| 22  | ...        | C-4 02 C2C | ...        | ...        |
-| 24  | C-4 05     | ...        | C-4 03     | B-4 06     |
-| 26  | ...        | ...        | ...        | ...        |
-| 28  | F-4 04     | ...        | E-4 07     | G-4 08     |
-| 30  | ...        | ...        | ...        | ...        |
-| 31  | ... .. E63 | ...        | ...        | ...        |
-| 32  | C-4 05 E60 | C-4 01 ... | C-4 03     | C-3 06     |
-| 34  | ...        | C-4 01 ... | ...        | ...        |
-| 36  | F-4 04     | C-4 02 C34 | C-4 07     | A-3 06     |
-| 38  | ...        | C-4 02 C2C | ...        | ...        |
-| 40  | C-4 05     | ...        | ...        | B-3 06     |
-| 42  | ...        | ...        | ...        | ...        |
-| 44  | G-4 04     | ...        | C-4 03     | G-3 06     |
-| 46  | ...        | ...        | ...        | ...        |
-| 48  | C-4 05     | C-4 01 ... | D-4 07     | C-4 08     |
-| 50  | ...        | C-4 01 ... | ...        | ...        |
-| 52  | A-4 04     | C-4 02 C34 | ...        | A-4 06     |
-| 54  | ...        | C-4 02 C2C | ...        | ...        |
-| 56  | C-4 05     | ...        | C-4 03     | B-4 06     |
-| 58  | ...        | ...        | ...        | ...        |
-| 60  | B-4 04     | ...        | E-4 07     | G-4 08     |
-| 62  | ...        | ...        | ...        | ...        |
-| 63  | ... .. E63 | ...        | ...        | ...        |
+Pattern `00` sets a sparse threshold: a low pulse under one higher string note, with three widely spaced clicks/rattles. The lead stays silent so Pattern `01` can introduce the first reed call.
+
+Assuming sample slots follow the shortlisted order: `02` Strings2, `03` DeepBass, `07` WoodBlock, `08` Shaker. All omitted rows are empty.
+
+---
+
+C-5 is too high for Strings2. What happened with the note range definition? Set it to C-3 instead.
+
+There's not enough going on in pattern00. At the moment it's the Dead Bog. We need just a little more action.
+
+---
+
+You’re right: I put Strings2 in C-4–B-5, then used C-5 without catching that it sat too high in the audition. I’ve set it to **C-3** here.
+
+I’ve added a few loping bass notes, irregular clicks and rattles, and a paired click at the end to lead into Pattern `01`. Slot IDs follow the shortlisted order.
+
+| RR | Channel 1  | Channel 2  | Channel 3  | Channel 4  |
+|---:|------------|------------|------------|------------|
+| 00 | --- -- --- | C-3 02 --- | C-4 03 --- | --- -- --- |
+| 09 | --- -- --- | --- -- --- | --- -- --- | C-3 07 --- |
+| 17 | --- -- --- | --- -- --- | --- -- --- | C-3 08 --- |
+| 20 | --- -- --- | --- -- --- | G-4 03 --- | --- -- --- |
+| 30 | --- -- --- | --- -- --- | --- -- --- | C-3 07 --- |
+| 36 | --- -- --- | --- -- --- | C-4 03 --- | --- -- --- |
+| 41 | --- -- --- | --- -- --- | --- -- --- | C-3 08 --- |
+| 53 | --- -- --- | --- -- --- | G-4 03 --- | --- -- --- |
+| 57 | --- -- --- | --- -- --- | --- -- --- | C-3 07 --- |
+| 61 | --- -- --- | --- -- --- | --- -- --- | C-3 07 --- |

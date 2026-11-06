@@ -16,8 +16,8 @@ instruments:
     name: 'ST-01/Strings2'
     finetune: 0
     volume: 0x20
-    start: 0x000
-    length: 0x200
+    start: 0x0cf2
+    length: 0x18dc
   - id: 0x03
     source: 'st01'
     name: 'ST-01/DeepBass'
