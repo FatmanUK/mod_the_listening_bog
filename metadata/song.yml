@@ -4,7 +4,8 @@ speed: 6
 bpm: 0x5a
 orderList:
   - 0x00
-  - 0x00
+  - 0x01
+  - 0x02
 instruments:
   - id: 0x01
     source: 'st01'
